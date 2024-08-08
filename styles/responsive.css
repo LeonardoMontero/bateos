@@ -1,0 +1,50 @@
+@media (max-width: 1031px) {
+    .imagene  img{
+        display: none;
+    }
+    .texts{
+        margin: 0;
+        text-align: center;
+    }
+    .texts h2{
+        text-align: center;
+    }
+    .texts .info-box1{
+        margin: 0;
+        text-align: center;
+    }
+    .texts .info-box2{
+        margin: 0;
+        text-align: center;
+    }
+    .texts .btn{
+        display: inline-block;
+        align-items: center;
+    }
+    .choices{
+        gap: 40px;
+        flex-direction: column;
+    }
+    .tuvas{
+        align-items: center;
+    }
+}
+
+@media (max-width: 1031px) {
+    .logo img{
+        display: none;
+    }
+}
+
+@media (max-width: 790px) {
+    header{
+        max-width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    header .btn{
+        display: none;
+    }
+    
+}
